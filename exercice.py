@@ -4,10 +4,13 @@
 import random
 
 def get_first_part_of_name(name):
-	return ""
+	premier = name.split("-")[0]
+	nom = premier[0].upper() + premier[1:].lower()
+	return f"Bonjour {nom}"
 
 def get_random_sentence(animals, adjectives, fruits):
-	return ""
+	
+	return f"Aujourd’hui, j’ai vu un {animals[random.randrange(0,len(animals))]} s’emparer d’un panier {adjectives[random.randrange(0,len(adjectives))]} plein de {fruits[random.randrange(0,len(fruits))]}."
 
 def encrypt(text, shift):
 	return ""
