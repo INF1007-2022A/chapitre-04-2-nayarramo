@@ -36,6 +36,6 @@ print(decrypt("DEF 123 ABC", 3))
 Nous donne
 ```
 BCD
-DEFGHI
-abc 123 DEF
+DEF 123 ABC
+ABC 123 DEF
 ```
